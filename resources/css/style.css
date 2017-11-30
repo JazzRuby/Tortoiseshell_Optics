@@ -1,0 +1,212 @@
+/*universal*/
+
+html {
+  font-size: 18px; /*calculate rems from this*/
+}
+
+body {
+font-family: helvetica;
+color: white;
+background-color: white;
+}
+
+/*HERO-SECTION*/
+.hero-section {
+  background: url("../img/glasses-bg.png");
+  background-size: cover;
+  height: 31rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+/*header*/
+.hero-section header {
+  width: 960px;
+  background-color: cadetblue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#Company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.company-name {
+  font-size: 1rem;
+  font-family: helvetica;
+}
+
+nav  {
+margin-right: 1rem;
+}
+
+nav span {
+padding:  1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/*end of header section*/
+
+
+/*HERO-SECTION continued*/
+.hero-section-motto {
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-right: 5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  width: 30%;
+  align-self: flex-end;
+  margin-right: 6%;
+  margin-top: 10rem;
+}
+
+.hero-section-motto h1 {
+  color: black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+    line-height: 1.2;
+}
+/*ENF OF HERO-SECTION*/
+
+
+/*SERVICES*/
+#Services {
+  height: 14rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Services span {
+  color: black;
+}
+
+.image-container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 5rem;
+  min-width: 5rem;
+  height: 60%;
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+span {
+  margin-top: 2rem;
+}
+
+#ruler {
+  margin-top:  5rem;
+}
+
+#truck {
+  margin-top: 3rem;
+}
+/*END OF SERVICES SECTION
+
+
+
+/*INFO SECTION*/
+.info {
+  background-color: white;
+color: black;
+  height: 13rem;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.philosophy {
+  height: 8rem;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.info h1 {
+    background-color: cadetblue;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 10rem;
+}
+
+.appointments {
+  height: 8rem;
+  width: 35%;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+/*END OF INFO SECTION*/
+
+
+/*FOOTER*/
+footer {
+  color: black;
+  width: auto;
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 6%;
+  margin-left: 6%;
+  margin-bottom: 1rem;
+}
+
+#Company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.company-name {
+  font-size: 1rem;
+  font-family: helvetica;
+}
+
+
+/*media queries*/
